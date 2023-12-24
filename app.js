@@ -37,7 +37,7 @@ function animatePress(currColor) {
     }, 100)
 }
 
-$(document).dblclick(function() {
+$('h1').click(function() {
     if(!started) {
         started = true;
         nextSequence();
@@ -57,7 +57,7 @@ function checkAnswer(currLevel) {
         setTimeout(function() {
             $('body').removeClass('game-over')
         }, 200)
-        $('h1').text('Game Over! Double Click to Restart')
+        $('h1').html('Game Over! Press <span>Restart</span> To Play')
         playSound('wrong')
         level = 0
         started = false;

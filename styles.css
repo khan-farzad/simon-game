@@ -17,6 +17,14 @@ body {
 
 }
 
+span {
+  background-color: #FEF2BF;
+  padding: 1rem;
+  display: inline-block;
+  color: #011F3F;
+  border-radius: 0.7rem;
+}
+
 .btn {
   margin: 25px;
   display: inline-block;
